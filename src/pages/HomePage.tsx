@@ -34,7 +34,7 @@ export function HomePage() {
             <div className="relative w-[560px]">
                 <input
                 type="text"
-                className="border py-2 px-2 w-full h-[42px] mb-2"
+                className="border py-2 px-2 w-full h-[42px] mt-5 mb-10"
                 placeholder="Search for Github username..."
                 value={search}
                 onChange={e => setSearch(e.target.value)}
